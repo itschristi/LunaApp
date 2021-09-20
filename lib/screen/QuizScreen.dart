@@ -161,7 +161,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                         Navigator.of(context).pop();
                                       }),
                                   Text(
-                                    'Vehicle',
+                                        widget.category.toString().toUpperCase(),
                                     style: TextStyle(
                                         fontSize: 30.0,
                                         fontWeight: FontWeight.w500,
